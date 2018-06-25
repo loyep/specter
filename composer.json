@@ -1,0 +1,20 @@
+{
+    "name": "lorencode/specter",
+    "description": "Specter is a fully open source, adaptable platform for building and running a modern online publication. We power blogs, magazines and journalists from Zappos to Sky News.",
+    "keywords": ["laravel", "ghost", "specter", "blog"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Maxsey",
+        "homepage": "https://lorencode.com",
+        "email": "mwl@live.com",
+        "role": "Developer"
+    }],
+    "homepage": "https://github.com/lorencode/specter",
+    "require": {
+
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
