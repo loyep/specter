@@ -9,10 +9,10 @@
         "email": "mwl@live.com",
         "role": "Developer"
     }],
-    "homepage": "https://github.com/lorencode/specter",
+    "homepage": "https://github.com/TrySpecter/specter",
     "support": {
-        "issues": "https://github.com/lorencode/specter/issues",
-        "source": "https://github.com/lorencode/specter"
+        "issues": "https://github.com/TrySpecter/specter/issues",
+        "source": "https://github.com/TrySpecter/specter"
     },
     "require": {
 
