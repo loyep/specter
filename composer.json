@@ -1,45 +1,51 @@
 {
-    "name": "tryspecter/specter",
-    "description": "Specter is a fully open source, adaptable platform for building and running a modern online publication. We power blogs, magazines and journalists from Zappos to Sky News.",
-    "keywords": ["laravel", "ghost", "specter", "blog"],
-    "license": "MIT",
-    "authors": [{
-        "name": "Maxsey",
-        "homepage": "https://lorencode.com",
-        "email": "mwl@live.com",
-        "role": "Developer"
-    }],
-    "homepage": "https://github.com/TrySpecter/specter",
-    "support": {
-        "issues": "https://github.com/TrySpecter/specter/issues",
-        "source": "https://github.com/TrySpecter/specter"
-    },
-    "require": {
-
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~7.0",
-        "laravel/framework": "~5.6.0",
-    },
-    "autoload": {
-        "psr-4": {
-            "TrySpecter\\Specter\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "TrySpecter\\Specter\\Tests\\": "tests/"
-      }
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "TrySpecter\\Specter\\SpecterServiceProvider"
-            ]
-        }
+  "name": "tryspecter/specter",
+  "description": "Specter is a fully open source, adaptable platform for building and running a modern online publication. We power blogs, magazines and journalists from Zappos to Sky News.",
+  "keywords": [
+    "laravel",
+    "ghost",
+    "specter",
+    "blog"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxsey",
+      "homepage": "https://lorencode.com",
+      "email": "mwl@live.com",
+      "role": "Developer"
     }
+  ],
+  "homepage": "https://github.com/TrySpecter/specter",
+  "support": {
+    "issues": "https://github.com/TrySpecter/specter/issues",
+    "source": "https://github.com/TrySpecter/specter"
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "laravel/framework": "~5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TrySpecter\\Specter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TrySpecter\\Specter\\": "packages/TrySpecter/Specter/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TrySpecter\\Specter\\SpecterServiceProvider"
+      ]
+    }
+  }
 }
