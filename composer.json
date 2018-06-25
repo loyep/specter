@@ -1,5 +1,5 @@
 {
-    "name": "lorencode/specter",
+    "name": "tryspecter/specter",
     "description": "Specter is a fully open source, adaptable platform for building and running a modern online publication. We power blogs, magazines and journalists from Zappos to Sky News.",
     "keywords": ["laravel", "ghost", "specter", "blog"],
     "license": "MIT",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "LorenCode\\Specter\\": "src/"
+            "TrySpecter\\Specter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LorenCode\\Specter\\Tests\\": "tests/"
+            "TrySpecter\\Specter\\Tests\\": "tests/"
       }
     },
     "config": {
@@ -38,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LorenCode\\Specter\\SpecterServiceProvider"
+                "TrySpecter\\Specter\\SpecterServiceProvider"
             ]
         }
     }
