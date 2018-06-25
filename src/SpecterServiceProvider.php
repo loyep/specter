@@ -21,12 +21,13 @@ class SpecterServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'specter');
 
-        $this->app->singleton('specter', function () {
-            return new Specter();
-        });
+        $this->app->singleton('specter',
+            function () {
+                return new Specter();
+            });
 
         $this->publishes([
-            __DIR__ . '/config/specter.php' => config_path('specter.php'),
+            __DIR__ . '/../config/specter.php' => config_path('specter.php'),
         ]);
     }
 

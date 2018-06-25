@@ -34,7 +34,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "TrySpecter\\Specter\\": "packages/TrySpecter/Specter/"
+      "TrySpecter\\Specter\\Tests\\": "tests/"
     }
   },
   "config": {
@@ -44,8 +44,11 @@
   "extra": {
     "laravel": {
       "providers": [
-        "TrySpecter\\Specter\\SpecterServiceProvider"
-      ]
+        "TrySpecter\\Specter\\Providers\\SpecterServiceProvider"
+      ],
+      "aliases": {
+        "Specter": "TrySpecter\\Specter\\Facades\\Specter"
+      }
     }
   }
 }
