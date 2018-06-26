@@ -1,6 +1,6 @@
 <?php
 
-namespace TrySpecter\Specter\Http\Controllers;
+namespace TrySpecter\Specter\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 
