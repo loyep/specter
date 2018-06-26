@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {{--<link rel="stylesheet" type="text/css" href="{{ asset "built/screen.css"}}"/>--}}
 </head>
-{{--<body class="error-template">--}}
-{{--<div class="site-wrapper">--}}
+<body class="error-template">
+<div class="site-wrapper">
     {{--<header class="site-header outer {{#if feature_image}}"--}}
             {{--style="background-image: url({{feature_image}}){{else}}no-cover{{/if}}">--}}
         {{--<div class="inner">--}}
@@ -45,7 +45,6 @@
         {{--</div>--}}
     {{--</aside>--}}
     {{--{{/get}}--}}
-
-{{--</div>--}}
-{{--</body>--}}
+</div>
+</body>
 </html>

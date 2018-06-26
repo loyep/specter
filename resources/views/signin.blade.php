@@ -48,8 +48,8 @@
                                     <svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path d="M21 4H3c-1.103 0-2 .897-2 2v11c0 1.103.897 2 2 2h18c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 1l.159.032L12 12.36 2.841 5.032 3 5h18zm1 12c0 .551-.449 1-1 1H3c-.551 0-1-.449-1-1V6c0-.11.03-.21.063-.309l9.625 7.7a.504.504 0 0 0 .624 0l9.625-7.7A.966.966 0 0 1 22 6v11z"></path>
                                     </svg>
-                                    <input name="email" tabindex="1" placeholder="Email Address"
-                                           class="email ember-text-field gh-input " type="email" autofocus>
+                                    <input name="email" placeholder="Email Address" class="email gh-input" type="email"
+                                           autofocus>
                                 </span>
                             </div>
                             <div class="form-group ember-view">
@@ -58,14 +58,13 @@
                                     <path d="M12 14c-.552 0-1 .449-1 1 0 .365.207.672.5.846V18.5a.5.5 0 0 0 1 0v-2.654A.987.987 0 0 0 13 15c0-.551-.448-1-1-1zm8.5-5H18V6c0-3.309-2.691-6-6-6S6 2.691 6 6v3H3.5a.5.5 0 0 0-.5.5v14a.5.5 0 0 0 .5.5h17a.5.5 0 0 0 .5-.5v-14a.5.5 0 0 0-.5-.5zM7 6c0-2.757 2.243-5 5-5s5 2.243 5 5v3H7V6zm13 17H4V10h16v13z"></path>
                                 </svg>
                                     <input name="password" placeholder="Password"
-                                           class="password ember-text-field gh-input ember-view" type="password">
-                                    <a href="#" class="forgotten-link gh-btn gh-btn-link gh-btn-icon ember-view">
+                                           class="password gh-input" type="password">
+                                    <a href="{{ route('specter.password') }}" class="forgotten-link gh-btn gh-btn-link gh-btn-icon ember-view">
                                         <span>Forgot?</span>
                                     </a>
                                 </span>
                             </div>
-                            <button tabindex="3" class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view"
-                                    type="submit">
+                            <button class="login gh-btn gh-btn-blue gh-btn-block gh-btn-icon ember-view" type="submit">
                                 <span>Sign in</span>
                             </button>
                         </form>

@@ -21,7 +21,7 @@ class AuthController extends Controller
             return redirect()->route('specter.dashboard');
         }
 
-        return Specter::view('stories');
+        return Specter::view('signin');
     }
 
     public function postSignIn(Request $request)
